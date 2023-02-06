@@ -19,6 +19,10 @@ public class Day4 {  //method overloading
 		System.out.println("Touring Bike:" + c + ", " + "Model:" + d);
 	}
 	
+	public void cycle() {
+		System.out.println("parent Cycle");
+	}
+	
 	public static void main(String[] args) {
 		Day4 x = new Day4();
 		x.bike();
